@@ -13,6 +13,8 @@ public class HomeController {
         model.addAttribute("title","URL Shortener!");
         return "index";
     }
+    // adding comments to check the git status
+
     @GetMapping("/about")
     public String about(){
         return "about";
